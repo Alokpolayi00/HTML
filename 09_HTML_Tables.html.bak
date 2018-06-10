@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Table</title>
+    <style>
+        table,th,td{
+            border: 2px solid red;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 5px;
+        }
+ #custom-table th{
+    background-color: red;
+    color: white;
+ }
+ h2{
+background-color:lightblue;
+padding:3px;
+margin:5px;
+ }
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Table Example -->
+<h3>Simple table</h3>
+<table width="100%">
+    <thead>
+        <tr>
+            <th>Sno</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+          </thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>john</td>
+        <td>uk</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>alok</td>
+        <td>us</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>parat</td>
+        <td>Austrelia</td>
+    </tr>
+</tbody>
+</table>
+
+    <!-- Table with Border all sides -->
+
+    <!-- Table with Border Collapse -->
+    
+
+    <!-- Table With Padding -->
+
+    <!-- Table With Text Align -->
+
+    <!-- Table with Col Span -->
+    <h2>Table Colspan</h2>
+       <table width="100%" colspan="2">
+    <thead>
+        <tr>
+            <th>Sno</th>
+            <th colspan="2">Name&Address</th>
+           
+        </tr>
+          </thead>
+<tbody>
+    <tr>
+        <td colspan"2">1</td>
+        <td>john</td>
+        <td>uk</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>alok</td>
+        <td>us</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>parat</td>
+        <td>Austrelia</td>
+    </tr>
+</tbody>
+</table>
+
+
+    <!-- Table With Row Span -->
+<h2>Table RowSpan</h2>
+<table width="100%">
+    <thead>
+        <tr>
+            <th>Sno</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+          </thead>
+<tbody>
+    <tr>
+        <td rowspan="2">1</td>
+        <td>john</td>
+        <td>uk</td>
+    </tr>
+    <tr>
+        
+        <td>alok</td>
+        <td>us</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>parat</td>
+        <td>Austrelia</td>
+    </tr>
+</tbody>
+</table>
+
+    <!-- Custom Table with CSS -->
+<h2>Table with css</h2>
+<table width="100%" id="custom-table">
+    <thead>
+        <tr>
+            <th>Sno</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+          </thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>john</td>
+        <td>uk</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>alok</td>
+        <td>us</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>parat</td>
+        <td>Austrelia</td>
+    </tr>
+</tbody>
+</table>
+
+</body>
+</html>
